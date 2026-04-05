@@ -5,7 +5,7 @@ import joblib
 
 scaler=joblib.load("scale.pkl")
 le_gender=joblib.load("Label Encodinggender.pkl")
-model=joblib.load("linear_Rgeression_model.pkl")
+model=joblib.load("Random_Forest_model.pkl")
 sm=joblib.load("Label Encodingsmoker.pkl")
 dia=joblib.load("Label Encodingdiabetic.pkl")
 
